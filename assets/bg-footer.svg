@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1026" height="309" viewBox="0 0 1026 309">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1.288" x2="0.5" y2="-0.897" gradientUnits="objectBoundingBox">
+      <stop offset="0.002" stop-color="#54c8ff"/>
+      <stop offset="0.692" stop-color="#3a65af"/>
+      <stop offset="1" stop-color="#303d8e"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_38" data-name="Rectángulo 38" width="1026" height="309" transform="translate(474.59 4144.43)"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.002" stop-color="#54c8ff"/>
+      <stop offset="0.693" stop-color="#3a65af" stop-opacity="0"/>
+      <stop offset="1" stop-color="#303d8e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.5" cy="0.5" r="0.787" gradientUnits="objectBoundingBox">
+      <stop offset="0.002" stop-color="#a689ff"/>
+      <stop offset="0.772" stop-color="#3a65af" stop-opacity="0"/>
+      <stop offset="1" stop-color="#303d8e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0.002" stop-color="#a689ff"/>
+      <stop offset="0.069" stop-color="#a281ff" stop-opacity="0.922"/>
+      <stop offset="0.41" stop-color="#925cff" stop-opacity="0.525"/>
+      <stop offset="0.686" stop-color="#8945ff" stop-opacity="0.204"/>
+      <stop offset="0.861" stop-color="#853dff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="Grupo_1017" data-name="Grupo 1017" transform="translate(-474.59 -4144.43)">
+    <rect id="Rectángulo_37" data-name="Rectángulo 37" width="1026" height="309" transform="translate(474.59 4144.43)" fill="url(#linear-gradient)"/>
+    <g id="Grupo_304" data-name="Grupo 304">
+      <g id="Grupo_303" data-name="Grupo 303" clip-path="url(#clip-path)">
+        <circle id="Elipse_8" data-name="Elipse 8" cx="424.92" cy="424.92" r="424.92" transform="translate(203.35 4215.9)" fill="url(#radial-gradient)"/>
+        <g id="Grupo_302" data-name="Grupo 302">
+          <g id="Grupo_301" data-name="Grupo 301">
+            <circle id="Elipse_9" data-name="Elipse 9" cx="342.8" cy="342.8" r="342.8" transform="translate(688.13 3754.04)" fill="url(#radial-gradient-2)"/>
+          </g>
+        </g>
+        <circle id="Elipse_10" data-name="Elipse 10" cx="342.8" cy="342.8" r="342.8" transform="translate(1142.66 4090.86)" fill="url(#radial-gradient-3)"/>
+      </g>
+    </g>
+  </g>
+</svg>

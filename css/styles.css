@@ -1,0 +1,770 @@
+* {
+    margin: 0vw;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.Index {
+    background: url('../assets/bg-header.svg');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: 0vw 0vw;
+    width: 100vw;
+    height: 80vw;
+}
+
+.Navbar {
+display: flex;
+}
+
+.Navbar-Terms__Flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.8vw 8.8vw;
+}
+
+.Navbar-Terms__Inicio {
+    font-size: 0.8vw;
+    text-decoration: none;
+    color: #355897;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Navbar-Terms__Nosotros {
+    font-size: 0.8vw;
+    text-decoration: none;
+    color: #355897;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Navbar-Terms__Soluciones {
+    font-size: 0.8vw; 
+    text-decoration: none;
+    color: #355897;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Navbar-Terms__Sesion {
+    padding: 0.3vw 0.7vw;
+    border-radius: 0.3vw;
+    background: #0068f9;
+    font-size: 0.8vw;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Navbar-Terms__Registro {
+    padding: 0.3vw 1.7vw;
+    border-radius: 0.3vw;
+    font-size: 0.8vw;
+    text-decoration: none;
+    color: white;
+    background: #00bcba;
+    box-shadow: 1px 1px 7px rgba(142, 235, 237, 0.65);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Navbar__Flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.8vw 4.8vw;
+    width: 90.4vw;
+} 
+
+.Navbar__Inicio {
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: #405E7A;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.Navbar__Confianza {
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: #405E7A;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.Navbar__Seguridad {
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: #405E7A;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.Navbar__Experiencia {
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: #405E7A;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.Navbar__Valor {
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: #405E7A;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+
+.Navbar__Registro {
+    padding: 0.4vw 2.2vw;
+    border-radius: 0.3vw;
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: white;
+    background: #3FB265;
+    box-shadow: 1px 1px 7px rgba(142, 235, 237, 0.65);
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: 300;
+}
+
+.Navbar__PC {
+    width: 2vw;
+    margin: 0vw 0.6vw 0vw 0vw;
+}
+
+.Navbar__Img {
+    width: 15vw;
+} 
+
+.Navbar__Evenly {
+    display: flex;
+    align-items: center;
+    width: 60vw;
+    justify-content: space-evenly;
+}
+
+.Header {
+    display: flex;
+    flex-direction: column;
+    transform: translate(23vw, 2vw);
+    width: 34vw;
+}
+
+.Header__Title{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 4vw;
+}
+
+.Header__Subtitle{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 2vw;
+}
+
+.Header__3title {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.44vw;
+}
+
+.Header__Socials{
+    display: flex;
+    justify-content: space-evenly;
+    width: 16vw;
+}
+
+.Header__Instagram {
+    width: 2.9vw;
+}
+
+.Header__Facebook {
+    width: 2.9vw;;
+}
+
+.Header__Twitter {
+    width: 2.9vw;
+}
+
+.Header__Telegram {
+    width: 2.9vw;
+}
+
+.HR {
+    background: #ffffff;
+    width: 5vw;
+    height: 0.4vw;
+    border-radius: 0.5vw;
+    margin: 2vw 0vw;
+}
+
+.Header__Select {
+    width: 30vw;
+    margin: 2vw 0vw 0vw 0vw;
+}
+
+.Header__Description{
+    font-size: 1.1vw;
+    font-family: 'Nunito', sans-serif;
+    color: #B9D9F966;
+    font-weight: 300;
+}
+
+.Header__Read {
+    background: #ffffff;
+    border-radius: 0.5vw;
+    text-decoration: none;
+    color: #355897;
+    font-size: 1vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    width: 8vw;
+    justify-content: center;
+    display: flex;
+    margin-top: 2vw;
+    height: 2vw;
+    align-items: center;
+}
+
+.Phone{
+    width: 25.3vw;
+    transform: translate(-3vw,-30vw);
+    position: absolute;
+    z-index: 2;
+}
+
+.Cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0vw 5vw;
+    position: absolute;
+    z-index: 3;
+    width: 90vw;
+    transform: translate(0vw, 15vw);
+}
+
+.Cards__Ripple {
+    width: 21.5vw;
+}
+
+.Counter {
+    width: 100vw;
+    position: absolute;
+    transform: translate(0vw, 21vw);
+}
+
+.Transactions {
+    transform: translate(6vw, 42vw);
+    display: flex;
+    flex-direction: column;
+    width: 88vw;
+}
+
+.Transactions__Title {
+    font-family: 'Nunito', sans-serif;
+    color: #0F3256;
+    font-weight: 700;
+    text-align: center;
+    width: 85vw;
+    font-size: 2.6vw;
+}
+
+.Transactions__Subtitle {
+    font-family: 'Nunito', sans-serif;
+    color: #90A1B8;
+    font-weight: 300;
+    text-align: center;
+    width: 85vw;
+    font-size: 2.6vw;
+}
+
+.Transactions__Flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 88vw;
+    padding: 6vw 0vw;
+}
+
+.Transactions__Columns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Transactions__Columns-Security{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0vw 0vw 3vw 0vw;
+}
+
+
+.Transactions__Security-Img {
+    width: 6vw;
+}
+
+.Transactions__Security-Title {
+    font-family: 'Nunito', sans-serif;
+    color: #0F3256;
+    font-weight: 700;
+    font-size: 2.2vw;
+    padding: 1vw 0vw 1vw 0vw;
+}
+
+.Transactions__Security-Text {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    color: #90A1B8;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.Transactions__High-Img {
+    width: 8vw;
+}
+
+.Transactions__High-Title {
+    font-family: 'Nunito', sans-serif;
+    color: #0F3256;
+    font-weight: 700;
+    font-size: 2.2vw;
+    padding: 1.9vw 0vw 1vw 0vw;
+}
+
+.Transactions__High-Text {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    color: #90A1B8;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.Transactions__Good-Img {
+    width: 6.2vw;
+}
+
+.Transactions__Good-Title {
+    font-family: 'Nunito', sans-serif;
+    color: #0F3256;
+    font-weight: 700;
+    padding: 0.6vw 0vw 1.1vw 0vw;
+    font-size: 2.2vw;
+}
+
+.Transactions__Good-Text {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    color: #90A1B8;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.Security {
+    transform: translate(0vw, 36vw);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vw;
+}
+
+.Security__Background {
+    background: #7974F5;
+    width: 80vw;
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+
+.Security__Title{
+    color: #FFFFFF;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 3vw;
+}
+
+.Security__Subtitle{
+    color: #FFFFFF;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 2vw;
+    width: 31vw;
+    padding: 2vw 0vw 1vw 0vw;
+}
+
+.Security__Text{
+    color: #FFFFFF;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 1.4vw;
+    width: 38.1vw;
+    padding: 0vw 0vw 0vw 7.2vw;
+    position: relative;
+    z-index: 3;
+}
+
+.Security__Effect-Dots {
+    width: 28vw;
+    height: 28vw;
+    position: absolute;
+    transform: translate(30vw,-15vw);
+    z-index: 1;
+}
+
+.Security__Effect-Blue {
+    width: 25vw;
+    height: 25vw;
+    position: absolute;
+    transform: translate(-31vw,16vw);
+    z-index: 1;
+}
+
+.Security__Button {
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #3FB265;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 300;
+    width: 11vw;
+    height: 3vw;
+    border-radius: 0.4vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    transform: translate(0vw, 32vw);
+}
+
+.Security__Left {
+    position: absolute;
+    width: 30vw;
+    transform: translate(-25vw, 3vw);
+    z-index: 2;
+}
+
+.Security__Right{
+    position: absolute;
+    width: 30vw;
+    transform: translate(25vw, 3vw);
+    z-index: 2;
+}
+
+.Experience {
+    position: absolute;
+    transform: translate(0vw, 40vw);
+    display: flex;
+    justify-content: space-between;
+    height: 59vw;
+    width: 98vw;
+}
+
+.Experience__Button {
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #3FB265;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 300;
+    width: 11vw;
+    height: 3vw;
+    border-radius: 0.4vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+}
+
+.Experience__Content {
+    width: 52vw;
+    padding: 0vw 0vw 0vw 10vw;
+}
+
+.Experience__Title {
+    font-family: 'Nunito', sans-serif;
+    color: #0F3256;
+    font-weight: 600;
+    font-size: 2.8vw;
+    width: 50.7vw;
+}
+
+.Experience__Subtitle {
+    font-family: 'Poppins', sans-serif;
+    color: #90A1B8;
+    font-weight: 300;
+    font-size: 1.5vw;
+    width: 45.7vw;
+    padding: 1vw 0vw 1vw 0vw;
+}
+
+.Experience__2Subtitle {
+    font-family: 'Poppins', sans-serif;
+    color: #0F3256;
+    font-weight: 500;
+    font-size: 2vw;
+    padding: 0vw 0vw 1vw 0vw;
+}
+
+.Experience__Img {
+    width: 40vw;
+    filter: drop-shadow(2vw 2vw 2.4vw #0F6E93);
+}
+
+
+.Experience__Text {
+    font-family: 'Nunito', sans-serif;
+    color: #90A1B8;
+    font-weight: 300;
+    font-size: 1.2vw;
+    width: 41.5vw;
+    padding: 0vw 0vw 2vw 0vw;
+}
+
+.Access {
+    background: url('/assets/access.svg');
+    position: absolute;
+    transform: translate(0vw, 106vw);
+    width: 91vw;
+    height: 21vw;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: 0vw 0vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0vw 0vw 0vw 9vw;
+}
+
+.Access__Title {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: #0F3256;
+    font-size: 2.2vw;
+    line-height: 2.3vw;
+}
+
+.Access__Subtitle {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: #90A1B8;
+    font-size: 1.5vw;
+    line-height: 2.3vw;
+    padding: 1vw 0vw;
+}
+
+.Access__Registro {
+    padding: 0.4vw 2.2vw;
+    border-radius: 0.9vw;
+    font-size: 1.1vw;
+    text-decoration: none;
+    color: white;
+    background: #3FB265;
+    box-shadow: 1px 1px 7px rgba(142, 235, 237, 0.65);
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: 300;
+    margin: 2vw 0vw 0vw 0vw;
+}
+
+.Access__PC {
+    width: 2.3vw;
+    margin: 0vw 0.6vw 0vw 0vw;
+}
+
+.Credit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 86vw;
+    transform: translate(0vw, 127vw);
+    height: 54vw;
+    padding: 0vw 7vw;
+}
+
+.Credit__Title {
+    color: #0F3256;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 3vw;
+}
+
+.Credit__Subtitle {
+    color: #0F3256;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 2vw;
+    padding: 2.5vw 0vw;
+}
+
+.Credit__Text {
+    color: #90A1B8;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 1.5vw;
+}
+
+.Credit__Img{
+    width: 27vw;
+}
+
+.Credit__Column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Credit__Button {
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #3FB265;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 300;
+    width: 11vw;
+    height: 3vw;
+    border-radius: 0.4vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 5vw;
+}
+
+.Eyepro {
+    background: url('/assets/eyewallet-pro.svg');
+    background-repeat: no-repeat;
+    background-size: 90vw;
+    background-position: center 0vw;
+    width: 100vw;
+    height: 54vw;
+    position: absolute;
+    transform: translate(0vw, 190vw);
+    display: flex;
+}
+
+.Eyepro__Button {
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #3FB265;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+    font-weight: 300;
+    width: 11vw;
+    height: 3vw;
+    border-radius: 0.4vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transform: translate(44.5vw, 233vw);
+    position: absolute;
+}
+
+.Eyepro__Flex {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    position: absolute;
+    transform: translate(16vw, 8vw);
+}
+
+.Eyepro__Title {
+    font-family: 'Nunito',sans-serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 3.5vw;
+}
+
+.Eyepro__Subtitle {
+    font-family: 'Nunito',sans-serif;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 2vw;
+}
+
+.Eyepro__Text {
+    font-family: 'Nunito',sans-serif;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 1.4vw;
+}
+
+.Footer {
+    background: url(/assets/bg-footer.svg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: center 0vw;
+    width: 100vw;
+    height: 30vw;
+    position: absolute;
+    transform: translate(0vw, 240vw);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Footer__Column-Between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30vw;
+    padding: 5.3vw 0vw;
+    box-sizing: border-box;
+}
+
+.Footer__Column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 20vw;
+    width: 15vw;
+}
+
+.Footer__Title {
+    font-family: 'Nunito', sans-serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 2vw;
+    margin-bottom: 0.8vw;
+}
+
+.Footer__Mail {
+    color: #FFFFFF;
+    font-family: 'Nunito',sans-serif;
+    font-weight: 300;
+    font-size: 1.5vw;
+}
+
+.Footer__Links {
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 1.5vw;
+    margin-bottom: 0.8vw;
+}
+
+.Footer__Eyewallet {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-size: 1.9vw;
+}
+
